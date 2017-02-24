@@ -1,0 +1,12 @@
+api:
+  build: "./api"
+  volumes:
+    - "./api:/src/api"
+  ports:
+    - "8000:8000"
+web:
+  build: "./web"
+  volumes:
+    - "./web:/src/web"
+  ports:
+    - "3000:3000"

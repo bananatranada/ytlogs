@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+var web = require('../web');
+
+web.set('port', process.env.PORT || 3000);
+
+var server = web.listen(web.get('port'), () => {
+  console.log('Express server listening on port ' + server.address().port);
+});

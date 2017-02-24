@@ -1,0 +1,15 @@
+{
+  "name": "ytlogs",
+  "version": "0.0.1",
+  "description": "Saves a record of favorited youtube videos. When the channel is removed or the video becomes private, the title and description of the video is gone.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -L api/bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
